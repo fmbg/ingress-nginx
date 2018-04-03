@@ -24,7 +24,7 @@ fi
 source $DIR/common.sh
 
 echo "Login to quay.io..."
-docker login --username=$QUAY_USERNAME --password=$QUAY_PASSWORD quay.io >/dev/null 2>&1
+docker login --username=$QUAY_USERNAME --password=$QUAY_PASSWORD >/dev/null 2>&1
 
 if [ $# -eq "1" ]
 then
