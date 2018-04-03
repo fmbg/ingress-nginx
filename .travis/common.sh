@@ -40,7 +40,7 @@ if ! [ -x "$(command -v jq)" ]; then
   sudo apt-get install -y jq
 fi
 
-if [ "$TRAVIS_REPO_SLUG" != "kubernetes/ingress-nginx" ];
+if [ "$TRAVIS_REPO_SLUG" != "fmbg/ingress-nginx" ];
 then
   echo "Only builds from kubernetes/ingress-nginx repository is allowed.";
   exit 0;
