@@ -53,7 +53,7 @@ EOF
 		-H "Travis-API-Version: 3" \
 		-H "Authorization: token $1" \
 		--data "$body" \
-		https://api.travis-ci.org/repo/kubernetes%2Fingress-nginx/requests
+		https://api.travis-ci.org/repo/fmbg%2Fingress-nginx/requests
 }
 
 case "$1" in
